@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Pepsi page</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./images/logo.png" class="logo"/></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">What's new?</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Contatct</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What <br> <span>I like</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere tortor ac massa vehicula, id sollicitudin massa hendrerit. Aliquam euismod tincidunt varius. Pellentesque interdum neque sit amet purus convallis dignissim. Praesent tincidunt sapien ac tempor rhoncus. Curabitur ultrices, nisi non varius dictum, eros justo egestas enim, a varius mauris leo quis dui. Nullam tincidunt neque ut velit bibendum ultrices. Nunc sodales risus quis sapien pellentesque ultrices. Curabitur sit amet nisi ligula. Vivamus velit sapien, volutpat ac ex ut, aliquet molestie diam. Maecenas imperdiet neque ut mollis blandit.</p>
+                <a href="#">View all products</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/pepsi001.png"class="pepsi" alt="">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/pepsi001.png" onclick="imgSlider('./images/pepsi001.png');changeColor('#0062be','#fff')"></li>
+            <li><img src="./images/pepsi002.png"  onclick="imgSlider('./images/pepsi002.png');changeColor('#eeeeee','#121211')" ></li>
+            <li><img src="./images/pepsi003.png"  onclick="imgSlider('./images/pepsi003.png');changeColor('#121212','#fff')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png"></a></li>
+            <li><a href="#"><img src="./images/instagram.png"></a></li>
+            <li><a href="#"><img src="./images/twitter.png"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript"src="js/index.js"></script>
+</body>
+</html>
